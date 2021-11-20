@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes ,Route } from 'react-router-dom'
+import Inicio from './components/Inicio'
+import Actividades from './components/Actividades'
+import Presenciales from './components/Presenciales'
+import Virtuales from './components/Virtuales'
+import Recomendadas from './components/Recomendadas'
+import Ingresar from './components/Ingresar'
+import Acercade from './components/Acercade'
+import Calendario from './components/Calendario'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Inicio/>} />
+        <Route path='/actividades' element={<Actividades/>} />
+        <Route path='/presenciales' element={<Presenciales/>} />
+        <Route path='/virtuales' element={<Virtuales/>} />
+        <Route path='/recomendadas' element={<Recomendadas/>} />
+        <Route path='/ingresar' element={<Ingresar/>} />
+        <Route path='/acercade' element={<Acercade/>} />
+        <Route path='/calendario' element={<Calendario/>} />
+      </Routes>
+    </Router>
+    </>
   );
 }
 
