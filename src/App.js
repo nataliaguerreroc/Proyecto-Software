@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes ,Route } from 'react-router-dom'
 import Inicio from './components/Inicio'
-import Actividades from './components/Actividades'
 import Presenciales from './components/Presenciales'
 import Virtuales from './components/Virtuales'
 import Recomendadas from './components/Recomendadas'
@@ -18,7 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Inicio/>} />
-        <Route path='/actividades' element={<Actividades/>} />
+        <Route path='/inicio' element={<Inicio/>} />
         <Route path='/presenciales' element={<Presenciales/>} />
         <Route path='/virtuales' element={<Virtuales/>} />
         <Route path='/recomendadas' element={<Recomendadas/>} />

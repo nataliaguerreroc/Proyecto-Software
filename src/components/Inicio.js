@@ -1,10 +1,13 @@
 import React from 'react';
-import '../App.css'
+import '../App.css';
+import './inicio.css';
+import imag1 from "../images/act2.jpg";
+
 
 export default function Inicio(){
     return(
-        <>
-        <h1 className = 'inicio'> VIDA FELIZ </h1>
-        </>
+        <div className= "contenedor-imagen">  
+        <img src={imag1} className="img-fluid imagen_inicio" alt="imag-pensionados"></img>
+        </div>
     );
 }

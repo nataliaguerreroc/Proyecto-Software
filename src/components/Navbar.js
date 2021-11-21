@@ -34,12 +34,19 @@ function Navbar() {
         <>
         <nav className="navbar">
                 <Link to = "/" className = "navbar-logo">
-                    VIDA FELIZ <i class="far fa-grin-beam"></i>
+                    VIDA FELIZ <i className="far fa-grin-beam"></i>
                 </Link>
                 <div className = 'menu-icon' onClick = {handleClick}>
                     <i className = {click ? 'fas fa-times' : 'fas fa-bars'}/>
                 </div>
                 <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
+                    
+
+                    <li className = 'nav-item'>
+                        <Link to = '/inicio' className = 'nav-links' onClick = {closeMobileMenu}>
+                            Inicio
+                        </Link>
+                    </li>
 
                     <li className = 'nav-item'>
                         <Link to = '/calendario' className = 'nav-links' onClick = {closeMobileMenu}>
@@ -52,7 +59,7 @@ function Navbar() {
                         onMouseEnter = {onMouseEnter}
                         onMouseLeave = {onMouseLeave}
                         >
-                        <Link to = '/actividades' className = 'nav-links' onClick = {closeMobileMenu}>
+                        <Link  to = {window.location.pathname} className = 'nav-links' onClick = {closeMobileMenu}>
                             Actividades <i className = 'fas fa-caret-down'/>
                         </Link>
                         {dropdown && <Dropdown/>}
