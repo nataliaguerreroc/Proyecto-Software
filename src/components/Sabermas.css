@@ -1,0 +1,34 @@
+.contenedor-imagen{
+    width: 100%;
+}
+
+.imagen_sabermas{
+    width: 100%;
+}
+
+.contenedor-saber{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-content: center;
+}
+
+.exp_btn{
+    padding: 0.6rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0rem;
+    border: 2px solid;
+    border-color: #155C22;
+    background: transparent;
+    color: #F0B214;
+    border-radius: 2px;
+    transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+
+.exp_btn:hover{
+    background: brown;
+    color: chartreuse;
+}

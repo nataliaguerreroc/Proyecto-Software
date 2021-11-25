@@ -5,7 +5,7 @@
     font-family: 'Dosis', sans-serif;
 }
 
-.inicio, .actividades, .acercade, .calendario, .ingresar, .presenciales, .virtuales, .recomendadas{
+.experiencias, .actividades, .acercade, .calendario, .ingresar, .presenciales, .virtuales, .recomendadas{
     display: flex;
     height: 90vh;
     align-items: center;

@@ -9,6 +9,8 @@ import Recomendadas from './components/Recomendadas'
 import Ingresar from './components/Ingresar'
 import Acercade from './components/Acercade'
 import Calendario from './components/Calendario'
+import Sabermas from './components/Sabermas'
+import Experiencias from './components/Experiencias'
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route path='/ingresar' element={<Ingresar/>} />
         <Route path='/acercade' element={<Acercade/>} />
         <Route path='/calendario' element={<Calendario/>} />
+        <Route path='/sabermas' element={<Sabermas/>} />
+        <Route path='/experiencias' element={<Experiencias/>} />
       </Routes>
     </Router>
     </>
