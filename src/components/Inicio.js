@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../App.css';
-import './Inicio.css';
+import './inicio.css';
 import imag1 from "../images/act2.jpg";
 import imag2 from "../images/prueba.jpg";
 
