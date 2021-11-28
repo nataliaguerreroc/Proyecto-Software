@@ -12,7 +12,7 @@ export default function Sabermas(){
             <div className = "contenedor-imagen">  
                 <img src={imag1} className="img-fluid imagen_sabermas" alt="imag-pensionados"></img>
             </div>
-            <hi className = "title"> Festival Brújula al Sur </hi>
+            <h1 className = "title"> Festival Brújula al Sur </h1>
               <div className = "contenedor-saber">
                   <div className = "img-saber">
                   <img src={imag2} className="img-fluid imagen_sabermasfest" alt="imag-fest"></img>

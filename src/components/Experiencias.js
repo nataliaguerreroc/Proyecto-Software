@@ -24,7 +24,7 @@ export default function Experiencias(){
                 <img src={imag1} className="img-fluid imagen_sabermas" alt="imag-pensionados"></img>
             </div>
 
-            <hi className = "title"> Experiencias </hi>
+            <h1 className = "title"> Experiencias </h1>
             <div className = "exp_container">
                 <div className = "img-saber">
                   <img src={imag2} className="img-fluid imagen_sabermasexp" alt="imag-festival"></img>

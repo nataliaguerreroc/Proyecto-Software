@@ -17,7 +17,7 @@ export default function Recomendadas(){
           <img src={imag1} className="img-fluid imagen_rec" alt="imag-pensionados"></img>
         </div>
 
-              <hi className = "title"> Actividades recomendadas</hi>
+              <h1 className = "title"> Actividades recomendadas</h1>
               <div className = "contenedor">
               <Card
               img = {imag2}

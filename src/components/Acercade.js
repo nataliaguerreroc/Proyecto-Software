@@ -11,7 +11,7 @@ export default function Acercade(){
           <img src={imag1} className="img-fluid imagen_acerca" alt="imag-pensionados"></img>
         </div>
 
-              <hi className = "title"> Acerca de </hi>
+              <h1 className = "title"> Acerca de </h1>
               <div className = "text"> 
                 <p>VIDA FELIZ nació con el propósito de hacer más feliz la vida de las personas jubiladas y pensionadas.
               Por esta razón, se creó una página web donde se pudieran encontrar muchas actividades tanto virtuales como presenciales

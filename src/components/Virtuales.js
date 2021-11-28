@@ -15,7 +15,7 @@ export default function Virtuales(){
           <img src={imag1} className="img-fluid imagen_virtuales" alt="imag-pensionados"></img>
         </div>
 
-              <hi className = "title"> Actividades virtuales </hi>
+              <h1 className = "title"> Actividades virtuales </h1>
               <div className = "contenedor">
               <Card
               img = {imag2}

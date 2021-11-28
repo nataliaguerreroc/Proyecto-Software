@@ -17,7 +17,7 @@ export default function Presenciales(){
           <img src={imag1} className = "imagen_presencial" alt="imag-pensionados"></img>
         </div>
 
-              <hi className = "title"> Actividades presenciales </hi>
+              <h1 className = "title"> Actividades presenciales </h1>
               <div className = "contenedor">
               <Card
               img = {imag2}

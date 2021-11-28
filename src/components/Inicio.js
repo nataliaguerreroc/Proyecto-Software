@@ -23,7 +23,7 @@ export default function Inicio(){
 
         </div>
 
-              <hi className = "title"> Actividades recientes </hi>
+              <h1 className = "title"> Actividades recientes </h1>
               <div className = "contenedor">
               <Card
               img = {imag2}
