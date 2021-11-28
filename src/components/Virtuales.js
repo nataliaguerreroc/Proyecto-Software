@@ -12,7 +12,7 @@ export default function Virtuales(){
         <div className = "virtuales_cont">
         
         <div className = "contenedor-imagenv">
-          <img src={imag1} className="img-fluid imagen_virtuales" alt="imag-pensionados"></img>
+          <img src={imag1} className="img-fluid imagen_virtuales" alt="imag-pensionados"  width = "100%"></img>
         </div>
 
               <h1 className = "title"> Actividades virtuales </h1>
