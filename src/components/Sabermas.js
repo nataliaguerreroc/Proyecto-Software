@@ -15,7 +15,7 @@ export default function Sabermas(){
             <hi className = "title"> Festival Brújula al Sur </hi>
               <div className = "contenedor-saber">
                   <div className = "img-saber">
-                  <img src={imag2} className="img-fluid imagen_sabermas" alt="imag-pensionados"></img>
+                  <img src={imag2} className="img-fluid imagen_sabermasfest" alt="imag-fest"></img>
                   </div>
                   <div className = "cont-text">
                     <h1>Descripción</h1>

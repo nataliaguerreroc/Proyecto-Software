@@ -8,6 +8,10 @@
 
 }
 
+.imagen_sabermas{
+  width: 100%;
+}
+
 .title {
     display: flex;
     height: 30vh;

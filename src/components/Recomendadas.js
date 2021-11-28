@@ -14,7 +14,7 @@ export default function Recomendadas(){
         <div className = "inicio_cont">
         
         <div className = "contenedor-imagen">
-          <img src={imag1} className="img-fluid imagen_inicio" alt="imag-pensionados"></img>
+          <img src={imag1} className="img-fluid imagen_presencial" alt="imag-pensionados"></img>
         </div>
 
               <hi className = "title"> Actividades recomendadas</hi>

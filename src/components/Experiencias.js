@@ -27,7 +27,7 @@ export default function Experiencias(){
             <hi className = "title"> Experiencias </hi>
             <div className = "exp_container">
                 <div className = "img-saber">
-                  <img src={imag2} className="img-fluid imagen_sabermasexp" alt="imag-pensionados"></img>
+                  <img src={imag2} className="img-fluid imagen_sabermasexp" alt="imag-festival"></img>
                   <p>Fecha: del 30-11-21 al 4-12-21</p>
                   <p>Disponible</p>
                   <button className = "saber_btn" onClick = {() => {navigate('/sabermas');}}> Saber más</button>

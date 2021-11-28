@@ -8,7 +8,7 @@ export default function Acercade(){
         <div className = "acercade_cont">
         
         <div className = "contenedor-imagen">
-          <img src={imag1} className="img-fluid imagen_inicio" alt="imag-pensionados"></img>
+          <img src={imag1} className="img-fluid imagen_acerca" alt="imag-pensionados"></img>
         </div>
 
               <hi className = "title"> Acerca de </hi>
