@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css'
 import { useNavigate } from 'react-router-dom';
-import './Presenciales.css';
+import './Recomendadas.css';
 import imag1 from "../images/act2.jpg";
 import imag2 from "../images/festival.png";
 import imag3 from "../images/mills.jpeg";
@@ -13,8 +13,8 @@ export default function Recomendadas(){
     return(
         <div className = "inicio_cont">
         
-        <div className = "contenedor-imagen">
-          <img src={imag1} className="img-fluid imagen_presencial" alt="imag-pensionados"></img>
+        <div className = "contenedor-imagenr">
+          <img src={imag1} className="img-fluid imagen_rec" alt="imag-pensionados"></img>
         </div>
 
               <hi className = "title"> Actividades recomendadas</hi>
@@ -58,8 +58,8 @@ function Card(props){
         <h2 className = "card_title">{props.title}</h2>
         <p className = "card_description">{props.description}</p>
       </div>
-      <button className = "card_btnp" onClick = {() => {navigate('/sabermas');}}> Saber más</button>
-      <button className = "card_btnp" onClick = {() => {navigate('/experiencias');}}> Experiencias</button>
+      <button className = "card_btnr" onClick = {() => {navigate('/sabermas');}}> Saber más</button>
+      <button className = "card_btnr" onClick = {() => {navigate('/experiencias');}}> Experiencias</button>
     </div>
   );
 }

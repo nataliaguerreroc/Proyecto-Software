@@ -1,11 +1,12 @@
-.contenedor-imagenv{
+.contenedor-imagenr{
     width: 100%;
 
 }
 
-.imagen_virtuales{
+.imagen_rec{
     width: 100%;
 }
+
 
 .contenedor{
     display: grid;
@@ -54,7 +55,7 @@
 }
 
 
-.card_btnv{
+.card_btnr{
     padding: 1rem;
     font-family: inherit;
     font-weight: bold;
@@ -68,7 +69,7 @@
     transition: background 200ms ease-in, color 200ms ease-in;
 }
 
-.card_btnv:hover{
+.card_btnr:hover{
     background: brown;
-    color: #ffff;
+    color: #FFFFFF;
 };
