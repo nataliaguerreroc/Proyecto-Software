@@ -19,10 +19,10 @@
     font-weight: bold;
     font-size: 1rem;
     margin: 0rem;
-    border: 2px solid;
-    border-color: #155C22;
+    border: 3px solid;
+    border-color: #1888ff;
     background: transparent;
-    color: #F0B214;
+    color: black;
     border-radius: 2px;
     transition: background 200ms ease-in, color 200ms ease-in;
 }
@@ -30,5 +30,5 @@
 
 .exp_btn:hover{
     background: brown;
-    color: chartreuse;
+    color: #ffff;
 }

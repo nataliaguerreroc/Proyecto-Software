@@ -103,18 +103,18 @@
     font-weight: bold;
     font-size: 1rem;
     margin: 0.5rem;
-    border: 2px solid;
-    border-color: #155C22;
+    border: 3px solid;
+    border-color: #1888ff;
     background: transparent;
-    color: #F0B214;
+    color: black;
     border-radius: 2px;
     transition: background 200ms ease-in, color 200ms ease-in;
 }
 
 
 .saber_btn:hover{
-    background: brown;
-    color: chartreuse;
+  background: brown;
+  color: #ffff;
 }
 
 /* modal */
@@ -187,7 +187,7 @@ body.active_modal {
     border-color: #9DEDFF;
 }
 
-.forn_input:focus {
+.form_input:focus {
     border-color: #7BDFF6;
 }
 
@@ -213,18 +213,18 @@ body.active_modal {
     font-weight: bold;
     font-size: 1rem;
     margin: 0.5rem;
-    border: 2px solid;
-    border-color: #155C22;
+    border: 3px solid;
+    border-color: #1888ff;
     background: transparent;
-    color: #F0B214;
+    color: black;
     border-radius: 1rem;
     transition: background 200ms ease-in, color 200ms ease-in;
 }
 
 
 .close_modal:hover{
-    background: brown;
-    color: chartreuse;
+  background: brown;
+  color: #ffff;
 };
 
 /*     position: absolute;

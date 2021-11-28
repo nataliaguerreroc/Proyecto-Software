@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../App.css'
 import imag1 from "../images/act2.jpg";
-import imag3 from "../images/actividades2.jpg";
+import imag2 from "../images/festival.png";
 import './Experiencias.css';
 import { useNavigate } from 'react-router-dom';
 
@@ -27,8 +27,8 @@ export default function Experiencias(){
             <hi className = "title"> Experiencias </hi>
             <div className = "exp_container">
                 <div className = "img-saber">
-                  <img src={imag3} className="img-fluid imagen_sabermasexp" alt="imag-pensionados"></img>
-                  <p>Fecha: 24-11-21</p>
+                  <img src={imag2} className="img-fluid imagen_sabermasexp" alt="imag-pensionados"></img>
+                  <p>Fecha: del 30-11-21 al 4-12-21</p>
                   <p>Disponible</p>
                   <button className = "saber_btn" onClick = {() => {navigate('/sabermas');}}> Saber más</button>
                   <button onClick = {toggleModal} className = "saber_btn">Compartir experiencia</button>                
@@ -36,21 +36,21 @@ export default function Experiencias(){
             
                 <div className ="testimonial-container">
                     <h2 className ="quote">
-                        All I can say is thank you! Design Co. has completely changed my business.
+                        Las anteriores versiones del festival han sido íncreibles. ¡No espero menos!
                     </h2>
                     <div className ="signature">
-                        <p className ="name">Jane Fisher</p>
-                        <p className ="company">Center Data</p>
+                        <p className ="name">Patricia Simone</p>
+                        <p className ="company">Estudiante</p>
                     </div>
                  </div>
                  
                 <div className ="testimonial-container">
                     <h2 className ="quote">
-                        Design Co. has increased business sales by over 400%. Thank you for everything Design Co!
+                        Transmitiremos por nuestra estación digital la obra en vivo, por si no alcanzas a ir a la función presencial. ¡Los esperamos!
                     </h2>
                     <div className ="signature">
-                        <p className ="name">Jorge Miles</p>
-                        <p className ="company">Diamond Company</p>
+                        <p className ="name">Tercera Órbita</p>
+                        <p className ="company">Tercera Órbita</p>
                     </div>
                 </div>
 
@@ -61,8 +61,8 @@ export default function Experiencias(){
                             <h2 className = "title_modal">Comparte tu experiencia</h2>
                                 <p className = "parr_modal"> Utiliza este espacio para escribir tu experiencia en la actividad.</p>
                                 <div class="form_group">
-                                <input type="text" id="email" class="form_input" placeholder=" " autocomplete="off"/>
-                                <label for="email" class="form_label">Descripción</label>
+                                <input type="text" id="descr" className ="form_input" placeholder=" " autocomplete="off"/>
+                                <label for="descr" className ="form_label">Descripción</label>
                                 </div>
 
                             <button className = "close_modal"> Compartir experiencia </button>
