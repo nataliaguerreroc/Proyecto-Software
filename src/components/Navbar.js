@@ -139,7 +139,7 @@ function Navbar() {
 
                     <li id = 'userCurrent' className = 'nav-item'>
                     <h1  style = {{visibility:'hidden'}} id="logged" className = 'nav-links'>
-                           Bienvenido, TestUser
+                           Bienvenido, User
                     </h1>
                     </li>
 
